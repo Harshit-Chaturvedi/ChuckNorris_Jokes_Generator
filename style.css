@@ -101,6 +101,7 @@ footer p{
 footer i{
     font-size: 2rem;
     margin-top: 0.5rem;
+    color: #0f0e17;
 }
 
 
@@ -109,7 +110,7 @@ footer i{
 /* Media Queries */
 @media(max-width: 568px){
     h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     label{
         font-size: 1.3rem;
@@ -119,5 +120,8 @@ footer i{
     #jokes div{
         margin: 1rem;
         margin-bottom: 3rem;
+    }
+    button{
+        font-size: 1rem;
     }
 }
