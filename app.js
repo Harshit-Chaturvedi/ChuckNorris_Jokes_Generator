@@ -12,7 +12,7 @@ function getJokes(e) {
     const xhr = new XMLHttpRequest();
 
     // Configure
-    xhr.open("GET", `//api.icndb.com/jokes/random/${number}`, true);
+    xhr.open("GET", `https://api.icndb.com/jokes/random/${number}`, true);
 
 
 
